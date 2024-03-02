@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Text } from "@chakra-ui/react";
 import { FaGithub, FaDiscord } from 'react-icons/fa';
+import { SiGitbook } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -24,6 +25,10 @@ const Footer = () => {
         
         <a href="https://discord.gg/cryptoswift" target="_blank" rel="noopener noreferrer">
           <FaDiscord size={24} style={{ marginLeft: '10px', color: 'white' }} />
+        </a>
+
+        <a href="https://cryptoswift.gitbook.io/cryptoswift-network/" target="_blank" rel="noopener noreferrer">
+          <SiGitbook size={24} style={{ marginLeft: '10px', color: 'white' }} />
         </a>
       </Flex>
     </Flex>
